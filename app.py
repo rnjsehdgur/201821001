@@ -6,7 +6,7 @@ import streamlit as st
 #전달함수 계수
 num = [100]
 
-den = [1, 5, 6]
+den = [2, 3, 0]
 
 #폐루프 전달함수 계산
 L = signal.TransferFunction(num, den)
