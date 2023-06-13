@@ -3,6 +3,7 @@ import numpy as np
 from scipy import signal
 import matplotlib.pyplot as plt
 
+st.title("201821001 권동혁")
 # 전달함수 계수 입력
 numerator = st.text_input("Numerator coefficients (separated by commas)", "100")
 denominator = st.text_input("Denominator coefficients (separated by commas)", "1, 5, 6")
