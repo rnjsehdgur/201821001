@@ -7,11 +7,11 @@ num = [100]
 
 den = [2, 3, 0]
 
-L = signal.TransferFunction(num, den)
+fig= signal.TransferFunction(num, den)
 
-t, y = signal.step(L)
+t, y = signal.step(fig)
 
-w, mag, phase = signal.bode(L)
+w, mag, phase = signal.bode(fig)
 
 plt.figure(figsize=(10, 4))
 plt.subplot(1, 2, 1)
