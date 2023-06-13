@@ -33,4 +33,4 @@ plt.ylabel('Magnitude [dB]')
 plt.title('Bode Diagram')
 
 plt.tight_layout()
-st.pyplot(L)
+st.pyplot(fig)
